@@ -1,0 +1,20 @@
+「3つのデータの入力 C#編」.txt
+
+using System;
+
+namespace CodingTest
+{
+    internal class Program
+    {
+        private static void Main(string[] args)
+        {
+            string t = Console.ReadLine().Trim();
+            var a = t.Split(' ');
+            foreach (var text in a)
+            {
+                Console.WriteLine(text);
+            }
+
+        }
+    }
+}
